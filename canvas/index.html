@@ -47,28 +47,29 @@
     <div class="col-xl-12">
       <h1>Instructions</h1>
       <p>
-        This interactive demo shows the Kriging system and solution based on
-        N samples. The central location will be estimated and it is fix
-        in the cartessian plane to (0,0). The cartessian plane has limites between -100.0 and 100.0
-        in both x and y.
+        This interactive demo shows the Kriging system and its solution based on
+        N samples in two-dimensions. The central location, which is located
+        at the middle point in the plane (0,0), will be estimated.
+        The cartesian plane has limits between -100.0 and 100.0
+        in both x and y. I will improve the display of the plane soon.
       </p>
       <p>
-        Generate until 6 samples. Move samples around the area and see the changes on distances,
+        You can generate from 2 to 6 samples. Move any sample around the plane and see the changes on distances,
         kriging (ordinary) system, weights, estimated value and kriging variance.
       </p>
       <p>
-        Number of samples points to generate (between 1 and 6):
+        Number of samples points to generate (between 2 and 6):
       </p>
       <p>
-        <input type="range" name="points" id="points"  min="1" max="6">
+        <input type="range" name="points" id="points"  min="2" max="6">
       </p>
       <p>
-        Mean and variance of normal distribution:
+        Minimum and maximum value from uniform distribution:
       </p>
       <p>
-        <input type="number" name="mean_norm" min="0" max="10" step="1.0" value="1" id='mean_norm'>
+        <input type="number" name="min_val" min="0" max="10" step="0.5" value="0" id='min_val'>
         &nbsp;
-        <input type="number" name="variance_norm" min="0" max="5" step="0.5" value="1.5" id='variance_norm'>
+        <input type="number" name="max_val" min="0" max="10" step="0.5" value="10" id='max_val'>
       </p>
       <input type="button" id="add_points" value="Generate scenario" onclick="add_points()">
     </div>
@@ -78,16 +79,14 @@
       <canvas id="canvas" width="500" height="500" style="border:1px solid #ccc"></canvas>
       <div class="row">
         <div class="col">
-          Krining estimation: <lablel id='krining_estimation'></label>
+          Kriging estimation: <lablel id='kriging_estimation'></label>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          Krining variance: <lablel id='krining_variance'></label>
+          Kriging variance: <lablel id='kriging_variance'></label>
         </div>
       </div>
-
-
     </div>
     <div class="col-xl-8">
       <div class="container2">
@@ -116,10 +115,6 @@
                         <label><span>Range:</span> <input type="number" name="vm_range" min="0" max="600" step="10" value="100" id='vm_range'>
                       </p>
                     </div>
-                    <p>
-                      <input type="button" id="calculate" value="Refresh" onclick="update_and_display()">
-                    </p>
-
                   </div>
                 </div>
               </div>
@@ -183,6 +178,13 @@
     </div>
   </div>
 </div>
-
+This demo is using the following technologies and libraries:
+<ul>
+  <li>HTML 5</li>
+  <li>Boostrap</li>
+  <li>D3</li>
+  <li>jQuery</li>
+</ul>
+Contact me for any suggestion or comment: exequiel.sepulveda@gmail.com
 </body>
 </html>

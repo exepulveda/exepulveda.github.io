@@ -24,7 +24,7 @@ function getColor(valueIn, minVal,maxVal) {
     // create a linear scale
     var color = d3.scaleLinear()
       .domain([minVal, maxVal])  // input uses min and max values
-      .range(["red", "blue"]);   // output for opacity between .3 and 1 %
+      .range(["blue", "red"]);   // output for opacity between .3 and 1 %
 
     return color(valueIn);  // return that number to the caller
 }
@@ -95,8 +95,8 @@ function randn_uniform(a,b) {
 }
 
 function add_point(name,x,y,is_central=false,r=point_radius) {
-  var mean_val = parseFloat(d3.select("#mean_norm").property("value"));
-  var var_val = parseFloat(d3.select("#variance_norm").property("value"));
+  var min_val = parseFloat(d3.select("#min_val").property("value"));
+  var max_val = parseFloat(d3.select("#max_val").property("value"));
 
   var new_point = new fabric.Circle({
       radius: r, fill: 'red', left: x-r/2.0, top: y-r/2.0,objectCaching: false
@@ -106,7 +106,7 @@ function add_point(name,x,y,is_central=false,r=point_radius) {
   new_point.is_central = is_central;
   new_point.lines = [];
   new_point.extremes = [];
-  new_point.value = randn_uniform(0,10);
+  new_point.value = randn_uniform(min_val,max_val);
   new_point.set('hasRotatingPoint',false);
   new_point.set('hasControls',false);
 
@@ -162,7 +162,7 @@ function join_points(mainloc,samples) {
       line = makeLine([x1+x1_offset,y1,x2+x2_offset,y2],pointi.is_central || pointj.is_central);
       line.name = '' + i + ':' + j;
 
-      console.log(i,j,x1,y1,x2,y2,pointi.is_central || pointj.is_central);
+      //console.log(i,j,x1,y1,x2,y2,pointi.is_central || pointj.is_central);
 
       pointi.lines.push(line);
       pointi.extremes.push(1);
@@ -199,7 +199,7 @@ function round(x,d=2) {
 
 function add_points() {
   var npoints = parseFloat(d3.select("#points").property("value"));
-  console.log('add_points::npoints',npoints);
+  //console.log('add_points::npoints',npoints);
 
   //Delete previous objects
   for (i=0;i<samples.lengths;i++) {
@@ -236,19 +236,17 @@ function update_and_display() {
   nugget = parseFloat(d3.select("#vm_nugget").property("value"));
   sill = parseFloat(d3.select("#vm_sill").property("value"));
   range = parseFloat(d3.select("#vm_range").property("value"));
-  console.log('nugget',nugget);
-  console.log('sill',sill);
-  console.log('range',range);
   var ret = compute_distances(samples,mainlocation);
   var dsamples = ret[0];
   var dx = ret[1];
+
+  var min_val = parseFloat(d3.select("#min_val").property("value"));
+  var max_val = parseFloat(d3.select("#max_val").property("value"));
 
   var ret_fill = fill_Ab(dsamples,dx);
   var A = ret_fill[0];
   var b = ret_fill[1];
   var bcopy = b.slice(0);
-  console.log('update_and_display::A',A);
-  console.log('update_and_display::b',b);
 
   $('#distance_matrix_div').html(generate_distance_table(dsamples, dx, "distance_matrix"));
   $('#cova_matrix_div').html(generate_cova_table(A, b, "cova_matrix"));
@@ -261,16 +259,17 @@ function update_and_display() {
   var kest = 0.0;
   var kvar = nugget + sill;
   for (i=0;i<dx.length;i++) {
+    //console.log('update_and_display::x',i,x[i],samples[i].get('value'));
     kest += x[i]*samples[i].get('value');
     kvar -= x[i]*bcopy[i];
   }
   kvar -= x[dx.length];
 
-  $("#krining_estimation").html(round(kest,4));
-  $("#krining_variance").html(round(kvar,4));
+  $("#kriging_estimation").html(round(kest,4));
+  $("#kriging_variance").html(round(kvar,4));
 
   mainlocation.value = kest;
-  mainlocation.set('fill',getColor(kest, 0,10));
+  mainlocation.set('fill',getColor(kest, min_val,max_val));
 
 }
 
@@ -278,7 +277,7 @@ function generate_distance_table(sd, ps, id) {
   var i,j;
   var n = ps.length;
 
-  console.log('length:',n);
+  //console.log('length:',n);
   var html = `
   <table class="table" id="{0}">
     <thead>

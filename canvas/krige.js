@@ -30,7 +30,7 @@ function compute_distances(points,pointx) {
 
            A[i][j] = distance(x1,y1,x2,y2);
            A[j][i] = A[i][j];
-           console.log(i,j,A[i][j]);
+           //console.log(i,j,A[i][j]);
 
         }
     }
