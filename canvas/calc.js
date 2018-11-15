@@ -398,14 +398,27 @@ function generate_points_table(pts, id) {
     html += '<td>{0}</td>'.format(round(x,2));
     html += '<td>{0}</td>'.format(round(y,2));
     html += '<td>';
-    html += '<input type="number" name="point_value" min="0" max="10" step="1" value="{0}" id="vm_range">'.format(round(v,3));
+    html += '<input type="number" name="sample_value_{1}" id="sample_value_{1}" min="0" max="10" step="1" value="{0}" oninput="update_sample({1})">'.format(round(v,3),i);
     html += '</td>';
     html += "</tr>";
+
   }
 
   html += "</tbody></table>";
 
   return html;
+}
+
+function update_sample(i) {
+  var min_val = parseFloat(d3.select("#min_val").property("value"));
+  var max_val = parseFloat(d3.select("#max_val").property("value"));
+
+  var val = parseFloat(d3.select('#sample_value_'+ i).property("value"));
+  samples[i].set('fill',getColor(val, min_val,max_val));
+  samples[i].value = val;
+
+  //console.log('update_sample',i,val)
+
 }
 
 function update_samples_table() {
