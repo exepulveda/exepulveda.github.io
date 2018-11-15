@@ -1,2 +1,2 @@
 # exepulveda.github.io
-Public website
+<a href='canvas/index.html'>A visualization tool for Kriging interpolation</a>
