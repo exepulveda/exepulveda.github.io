@@ -11,8 +11,8 @@ function compute_distances(points,pointx) {
 
     for (i=0; i < nsamples; i++) {
         pointi = points[i]
-        x1 = pointi.get('left') + 5;
-        y1 = pointi.get('top') + 5;
+        x1 = pointi.get('left') + point_radius;
+        y1 = pointi.get('top') + point_radius;
 
         x1 = get_relative_x(x1);
         y1 = get_relative_x(y1);
@@ -22,8 +22,8 @@ function compute_distances(points,pointx) {
         for (j=i+1; j < nsamples; j++) {
            //connect point i and j
            pointj = points[j]
-           x2 = pointj.left + 5
-           y2 = pointj.top + 5
+           x2 = pointj.left + point_radius
+           y2 = pointj.top + point_radius
 
            x2 = get_relative_x(x2);
            y2 = get_relative_x(y2);
@@ -35,14 +35,14 @@ function compute_distances(points,pointx) {
         }
     }
 
-    x2 = pointx.get('left') + 5
-    y2 = pointx.get('top') + 5
+    x2 = pointx.get('left') + point_radius
+    y2 = pointx.get('top') + point_radius
     x2 = get_relative_x(x2);
     y2 = get_relative_x(y2);
     for (i=0; i < nsamples; i++) {
       pointi = points[i];
-      x1 = pointi.get('left') + 5
-      y1 = pointi.get('top') + 5
+      x1 = pointi.get('left') + point_radius
+      y1 = pointi.get('top') + point_radius
       x1 = get_relative_x(x1);
       y1 = get_relative_x(y1);
 

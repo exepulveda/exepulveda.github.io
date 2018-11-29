@@ -1,3 +1,5 @@
+var trace = 0;
+
 var width = 500;
 var height = 500;
 
@@ -69,8 +71,7 @@ function moving_callback(e) {
   }
   canvas.renderAll();
 
-  update_samples_table();
-  update_and_display()
+  update_sample_location(point.index);
 }
 
 function distance(x1,y1,x2,y2) {
@@ -99,7 +100,7 @@ function add_point(name,x,y,is_central=false,r=point_radius) {
   var max_val = parseFloat(d3.select("#max_val").property("value"));
 
   var new_point = new fabric.Circle({
-      radius: r, fill: 'red', left: x-r/2.0, top: y-r/2.0,objectCaching: false
+      radius: r, fill: 'red', left: x-r, top: y-r,objectCaching: false
       });
   new_point.set('selectable', true);
   new_point.name = name;
@@ -219,15 +220,17 @@ function add_points() {
     var x = Math.cos(angle*(i+1)) * 50.0;
     var y = Math.sin(angle*(i+1)) * 50.0;
     var sample1 = add_point('sample' + (i+1),get_absolute_x(x),get_absolute_y(y));
+    sample1.index = i;
     sample1.set('selectable', true);
     canvas.add(sample1);
     samples[i] = sample1;
+
   }
 
   lines = join_points(mainlocation,samples);
 
-
   update_samples_table();
+  update_all();
   canvas.renderAll();
 
 }
@@ -312,8 +315,10 @@ function generate_cova_table(A, b, id) {
   var n = A.length;
   var m = b.length;
 
-  console.log('generate_cova_table::length A:',n);
-  console.log('generate_cova_table::length b:',n);
+  if (trace>0) {
+    console.log('generate_cova_table::length A:',n);
+    console.log('generate_cova_table::length b:',n);
+  }
   var html = `
   <table class="table" id="{0}">
     <thead>
@@ -332,11 +337,11 @@ function generate_cova_table(A, b, id) {
   for(i=0;i<n;i++) {
     html += '<tr><th scope="row">{0}</th>'.format((i+1));
     for(j=0;j<n;j++) {
-      console.log('A',i,j,A[i][j]);
+      if (trace>0) console.log('A',i,j,A[i][j]);
       html += '<td id="{2}_cell{0}{1}">{3}</td>'.format(i,j,id,round(A[i][j],3));
     }
     html += '<td></td><td id="{1}_cell{0}">{2}</td>'.format(j,id,round(b[i],3));
-    console.log('b',i,b[i]);
+    if (trace>0) console.log('b',i,b[i]);
     html += "</tr>";
   }
   html += "</tbody></table>";
@@ -395,10 +400,10 @@ function generate_points_table(pts, id) {
     v = pts[i].get('value');
 
     html += '<tr><th scope="row">{0}</th>'.format((i+1));
-    html += '<td>{0}</td>'.format(round(x,2));
-    html += '<td>{0}</td>'.format(round(y,2));
+    html += '<td id="{1}">{0}</td>'.format(round(x,2),"sample_x_"+i);
+    html += '<td id="{1}">{0}</td>'.format(round(y,2),"sample_y_"+i);
     html += '<td>';
-    html += '<input type="number" name="sample_value_{1}" id="sample_value_{1}" min="0" max="10" step="1" value="{0}" oninput="update_sample({1})">'.format(round(v,3),i);
+    html += '<input type="number" name="sample_value_{1}" id="sample_value_{1}" min="0" max="10" style="width: 7em" step="1" value="{0}" onchange="update_sample({1})">'.format(round(v,3),i);
     html += '</td>';
     html += "</tr>";
 
@@ -409,6 +414,17 @@ function generate_points_table(pts, id) {
   return html;
 }
 
+function update_sample_location(i) {
+  x = get_relative_x(samples[i].get('left') + point_radius);
+  y = get_relative_y(samples[i].get('top') + point_radius);
+
+  $('#sample_x_'+i).html(round(x,2));
+  $('#sample_y_'+i).html(round(y,2));
+
+  update_all();
+
+}
+
 function update_sample(i) {
   var min_val = parseFloat(d3.select("#min_val").property("value"));
   var max_val = parseFloat(d3.select("#max_val").property("value"));
@@ -416,11 +432,16 @@ function update_sample(i) {
   var val = parseFloat(d3.select('#sample_value_'+ i).property("value"));
   samples[i].set('fill',getColor(val, min_val,max_val));
   samples[i].value = val;
-
-  //console.log('update_sample',i,val)
+  canvas.renderAll();
+  update_all()
 
 }
 
 function update_samples_table() {
   $('#samples_div').html(generate_points_table(samples,"samples"));
+}
+
+function update_all() {
+  //update_samples_table();
+  update_and_display();
 }
