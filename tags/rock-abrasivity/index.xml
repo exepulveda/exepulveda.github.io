@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rock abrasivity on Academic</title>
+    <link>https://exepulveda.github.io/tags/rock-abrasivity/</link>
+    <description>Recent content in Rock abrasivity on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +1030</lastBuildDate>
+    
+	<atom:link href="https://exepulveda.github.io/tags/rock-abrasivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A preliminary study on the role of acoustic emission on inferring Cerchar abrasivity index of rocks using artificial neural network</title>
+      <link>https://exepulveda.github.io/publication/perez-2015-acoustic/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/perez-2015-acoustic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

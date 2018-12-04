@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Academic</title>
+    <link>https://exepulveda.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1030</lastBuildDate>
+    
+	<atom:link href="https://exepulveda.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Optimization of planning and scheduling of ore body with open pit extraction considering homogeneity in clays as geometallurgical</title>
+      <link>https://exepulveda.github.io/publication/garrido-2017-geometdilution/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/garrido-2017-geometdilution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallelization of simulation algorithm with GPU for constructing high- resolution models of Earth Sciences variables</title>
+      <link>https://exepulveda.github.io/publication/baeza-2012-gpu/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/baeza-2012-gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed-Multiprocess Implementation of Kriging</title>
+      <link>https://exepulveda.github.io/publication/sepulveda-2010-kriging/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/sepulveda-2010-kriging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid KNN Algorithm using CPU and GPU applied on 3D data</title>
+      <link>https://exepulveda.github.io/publication/sepulveda-2010-hybridknn/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/sepulveda-2010-hybridknn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovations in Software Development for Resource Evaluation</title>
+      <link>https://exepulveda.github.io/publication/ortiz-2008-innovations/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/ortiz-2008-innovations/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

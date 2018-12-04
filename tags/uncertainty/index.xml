@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uncertainty on Academic</title>
+    <link>https://exepulveda.github.io/tags/uncertainty/</link>
+    <description>Recent content in uncertainty on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +1030</lastBuildDate>
+    
+	<atom:link href="https://exepulveda.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The optimisation of block caving production scheduling with geometallurgical uncertainty – a multi-objective approach</title>
+      <link>https://exepulveda.github.io/publication/sepulveda-2018-geomet/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/sepulveda-2018-geomet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
