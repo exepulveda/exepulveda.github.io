@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Copula</title>
+      <link>/tags/copula/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/copula/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometallurgy</title>
+      <link>/tags/geometallurgy/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/geometallurgy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining</title>
+      <link>/tags/mining/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling</title>
+      <link>/tags/modelling/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>block caving</title>
+      <link>/tags/block-caving/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/block-caving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-objective optimisation</title>
+      <link>/tags/multi-objective-optimisation/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/multi-objective-optimisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>production scheduling optimisation</title>
+      <link>/tags/production-scheduling-optimisation/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/production-scheduling-optimisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risk assessment</title>
+      <link>/tags/risk-assessment/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/risk-assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uncertainty</title>
+      <link>/tags/uncertainty/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometallurgical modelling</title>
+      <link>/tags/geometallurgical-modelling/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/geometallurgical-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projection pursuit re</title>
+      <link>/tags/projection-pursuit-re/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/projection-pursuit-re/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acoustic emissions</title>
+      <link>/tags/acoustic-emissions/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/acoustic-emissions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial neural networks</title>
+      <link>/tags/artificial-neural-networks/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/artificial-neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cerchar abrasivity index</title>
+      <link>/tags/cerchar-abrasivity-index/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cerchar-abrasivity-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projection Pursuit</title>
+      <link>/tags/projection-pursuit/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/projection-pursuit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk Management 2</title>
+      <link>/tags/risk-management-2/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/risk-management-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rock abrasivity</title>
+      <link>/tags/rock-abrasivity/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rock-abrasivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool condition monitoring</title>
+      <link>/tags/tool-condition-monitoring/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tool-condition-monitoring/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

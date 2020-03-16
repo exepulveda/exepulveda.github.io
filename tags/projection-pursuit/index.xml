@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projection Pursuit on Academic</title>
+    <link>https://exepulveda.github.io/tags/projection-pursuit/</link>
+    <description>Recent content in Projection Pursuit on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://exepulveda.github.io/tags/projection-pursuit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modelling geometallurgical response variables using Projection Pursuit regression</title>
+      <link>https://exepulveda.github.io/publication/content/publication/sepulveda-2015-ppr/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/publication/content/publication/sepulveda-2015-ppr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

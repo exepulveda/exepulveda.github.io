@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>production scheduling optimisation on </title>
+    <link>/tags/production-scheduling-optimisation/</link>
+    <description>Recent content in production scheduling optimisation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/production-scheduling-optimisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The optimisation of block caving production scheduling with geometallurgical uncertainty – a multi-objective approach</title>
+      <link>/publication/sepulveda-2018-geomet/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sepulveda-2018-geomet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

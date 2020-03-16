@@ -1,0 +1,12 @@
+@inproceedings{sepulveda2010kriging,
+ abstract = {One of the most popular methods for the estimation of mineral resources is kriging. It allows estimating a variable in a block model from a set of conditioning data, making use of the spatial continuity, through the variogram. In many cases, these models consider tens of millions of blocks and are conditioned to hundreds of thousands samples. Therefore, any estimation software must be able to handle this amount of information, and, in addition, it must be capable of computing the model in a reasonable time. Most available softwares have been designed and implemented under a sequential programming paradigm, and consequently, do not take advantage of the available capacity offered by today's computers, based on multicore architectures. We propose a distributed-multiprocess implementation to improve the performance of this estimation algorithm, considering two main focuses: 1. Use of efficient algorithms for the different issues involved in the estimation by kriging (search and solving of systems of linear equations). 2. Implementation of the algorithm in a parallel setting, in order to distribute the computation effort in several processes. The first focus is approached using kd-trees and specific algorithms for the solution of systems of linear equations with symmetry. The second focus is resolved modifying the kriging algorithm to fit specific strategies for the use of multiple processes and distributing the computation load, reducing significantly the computation time for large estimation models. In addition to this, some tools are used for specific homogeneous systems of processors (clusters) to reduce even more the running time of the estimation. We show a case study to demonstrate the improvements in computation time from three different perspectives: 1) using the multicore capacity; 2) improving in a distributed framework (cluster); and 3) speed up due to the use of specific tools for a homogeneous cluster.},
+ address = {Santiago},
+ author = {Sepúlveda, Exequiel and Magri, Eduardo and Ortiz, Julián},
+ booktitle = {The Fourth International Conference on Mining Innovation},
+ editor = {Castro, Raul and Emery, Xavier and Kuyvenhoven, Romke},
+ file = {:home/a1634120/extrahd/Mendeley Desktop/2010 - Sepúlveda, Magri, Ortiz - Distributed-Multiprocess Implementation of Kriging.pdf:pdf},
+ pages = {49},
+ title = {Distributed-Multiprocess Implementation of Kriging},
+ year = {2010}
+}
+

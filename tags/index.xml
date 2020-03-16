@@ -7,87 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +1030</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://exepulveda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Acoustic emissions</title>
-      <link>https://exepulveda.github.io/tags/acoustic-emissions/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
+      <title>Copula</title>
+      <link>https://exepulveda.github.io/tags/copula/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://exepulveda.github.io/tags/acoustic-emissions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artificial neural networks</title>
-      <link>https://exepulveda.github.io/tags/artificial-neural-networks/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/tags/artificial-neural-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cerchar abrasivity index</title>
-      <link>https://exepulveda.github.io/tags/cerchar-abrasivity-index/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/tags/cerchar-abrasivity-index/</guid>
+      <guid>https://exepulveda.github.io/tags/copula/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometallurgy</title>
       <link>https://exepulveda.github.io/tags/geometallurgy/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://exepulveda.github.io/tags/geometallurgy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projection pursuit re</title>
-      <link>https://exepulveda.github.io/tags/projection-pursuit-re/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +1030</pubDate>
+      <title>Mining</title>
+      <link>https://exepulveda.github.io/tags/mining/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://exepulveda.github.io/tags/projection-pursuit-re/</guid>
+      <guid>https://exepulveda.github.io/tags/mining/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Rock abrasivity</title>
-      <link>https://exepulveda.github.io/tags/rock-abrasivity/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
+      <title>Modelling</title>
+      <link>https://exepulveda.github.io/tags/modelling/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://exepulveda.github.io/tags/rock-abrasivity/</guid>
+      <guid>https://exepulveda.github.io/tags/modelling/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tool condition monitoring</title>
-      <link>https://exepulveda.github.io/tags/tool-condition-monitoring/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
+      <title>Regression</title>
+      <link>https://exepulveda.github.io/tags/regression/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://exepulveda.github.io/tags/tool-condition-monitoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Geometallurgical modelling</title>
-      <link>https://exepulveda.github.io/tags/geometallurgical-modelling/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/tags/geometallurgical-modelling/</guid>
+      <guid>https://exepulveda.github.io/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>block caving</title>
       <link>https://exepulveda.github.io/tags/block-caving/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://exepulveda.github.io/tags/block-caving/</guid>
       <description></description>
@@ -96,7 +69,7 @@
     <item>
       <title>multi-objective optimisation</title>
       <link>https://exepulveda.github.io/tags/multi-objective-optimisation/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://exepulveda.github.io/tags/multi-objective-optimisation/</guid>
       <description></description>
@@ -105,7 +78,7 @@
     <item>
       <title>production scheduling optimisation</title>
       <link>https://exepulveda.github.io/tags/production-scheduling-optimisation/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://exepulveda.github.io/tags/production-scheduling-optimisation/</guid>
       <description></description>
@@ -114,7 +87,7 @@
     <item>
       <title>risk assessment</title>
       <link>https://exepulveda.github.io/tags/risk-assessment/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://exepulveda.github.io/tags/risk-assessment/</guid>
       <description></description>
@@ -123,9 +96,90 @@
     <item>
       <title>uncertainty</title>
       <link>https://exepulveda.github.io/tags/uncertainty/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://exepulveda.github.io/tags/uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometallurgical modelling</title>
+      <link>https://exepulveda.github.io/tags/geometallurgical-modelling/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/geometallurgical-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projection pursuit re</title>
+      <link>https://exepulveda.github.io/tags/projection-pursuit-re/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/projection-pursuit-re/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acoustic emissions</title>
+      <link>https://exepulveda.github.io/tags/acoustic-emissions/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/acoustic-emissions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial neural networks</title>
+      <link>https://exepulveda.github.io/tags/artificial-neural-networks/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/artificial-neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cerchar abrasivity index</title>
+      <link>https://exepulveda.github.io/tags/cerchar-abrasivity-index/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/cerchar-abrasivity-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projection Pursuit</title>
+      <link>https://exepulveda.github.io/tags/projection-pursuit/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/projection-pursuit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk Management 2</title>
+      <link>https://exepulveda.github.io/tags/risk-management-2/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/risk-management-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rock abrasivity</title>
+      <link>https://exepulveda.github.io/tags/rock-abrasivity/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/rock-abrasivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool condition monitoring</title>
+      <link>https://exepulveda.github.io/tags/tool-condition-monitoring/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://exepulveda.github.io/tags/tool-condition-monitoring/</guid>
       <description></description>
     </item>
     

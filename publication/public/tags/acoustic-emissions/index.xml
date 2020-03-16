@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acoustic emissions on </title>
+    <link>/tags/acoustic-emissions/</link>
+    <description>Recent content in Acoustic emissions on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/acoustic-emissions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A preliminary study on the role of acoustic emission on inferring Cerchar abrasivity index of rocks using artificial neural network</title>
+      <link>/publication/perez-2015-acoustic/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/perez-2015-acoustic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
