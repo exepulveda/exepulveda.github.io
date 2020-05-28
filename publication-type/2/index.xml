@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Exequiel&#39;s profile</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Prediction of copper recovery from geometallurgical data using D-vine copulas</title>
+      <link>/publication/addo-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/addo-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fuzzy clustering with spatial correction and its application to geometallurgical domaining</title>
+      <link>/publication/sepulveda-2018-clustering/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sepulveda-2018-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The optimisation of block caving production scheduling with geometallurgical uncertainty – a multi-objective approach</title>
+      <link>/publication/sepulveda-2018-geomet/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sepulveda-2018-geomet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivariate Modelling of Geometallurgical Variables by Projection Pursuit</title>
+      <link>/publication/sepulveda-2016-ppr/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/sepulveda-2016-ppr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A preliminary study on the role of acoustic emission on inferring Cerchar abrasivity index of rocks using artificial neural network</title>
+      <link>/publication/perez-2015-acoustic/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/perez-2015-acoustic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Felipe Navarro | Exequiel&#39;s profile</title>
+    <link>/author/felipe-navarro/</link>
+      <atom:link href="/author/felipe-navarro/index.xml" rel="self" type="application/rss+xml" />
+    <description>Felipe Navarro</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Felipe Navarro</title>
+      <link>/author/felipe-navarro/</link>
+    </image>
+    
+    <item>
+      <title>A Methodology for the Simulation of Synthetic Geometallurgical Block Models of Porphyry Ore Bodies</title>
+      <link>/publication/garrido-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/garrido-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of planning and scheduling of ore body with open pit extraction considering homogeneity in clays as geometallurgical</title>
+      <link>/publication/garrido-2017-geometdilution/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/garrido-2017-geometdilution/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

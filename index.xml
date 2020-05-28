@@ -1,146 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Academic</title>
-    <link>https://exepulveda.github.io/</link>
-    <description>Recent content in Academic on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <title>Exequiel&#39;s profile</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Exequiel&#39;s profile</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Exequiel&#39;s profile</title>
+      <link>/</link>
+    </image>
     
     <item>
       <title>A Methodology for the Simulation of Synthetic Exploration and Geometallurgical Database for Educational Purposes</title>
-      <link>https://exepulveda.github.io/publication/content/publication/garrido-2020/</link>
+      <link>/publication/garrido-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/garrido-2020/</guid>
+      <guid>/publication/garrido-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An overview of good practices in the use of geometallurgy to support mining reserves in copper sulfides deposits</title>
-      <link>https://exepulveda.github.io/publication/content/publication/garrido-2019/</link>
+      <link>/publication/garrido-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/garrido-2019/</guid>
+      <guid>/publication/garrido-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prediction of copper recovery from geometallurgical data using D-vine copulas</title>
-      <link>https://exepulveda.github.io/publication/content/publication/addo-2019/</link>
+      <link>/publication/addo-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/addo-2019/</guid>
+      <guid>/publication/addo-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Methodology for the Simulation of Synthetic Geometallurgical Block Models of Porphyry Ore Bodies</title>
-      <link>https://exepulveda.github.io/publication/content/publication/garrido-2018/</link>
+      <link>/publication/garrido-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/garrido-2018/</guid>
+      <guid>/publication/garrido-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fuzzy clustering with spatial correction and its application to geometallurgical domaining</title>
-      <link>https://exepulveda.github.io/publication/content/publication/sepulveda-2018-clustering/</link>
+      <link>/publication/sepulveda-2018-clustering/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/sepulveda-2018-clustering/</guid>
+      <guid>/publication/sepulveda-2018-clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The optimisation of block caving production scheduling with geometallurgical uncertainty – a multi-objective approach</title>
-      <link>https://exepulveda.github.io/publication/content/publication/sepulveda-2018-geomet/</link>
+      <link>/publication/sepulveda-2018-geomet/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/sepulveda-2018-geomet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fuzzy clustering with spatial correction and its application to geometallurgical domaining</title>
-      <link>https://exepulveda.github.io/publication/sepulveda-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/sepulveda-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The optimisation of block caving production scheduling with geometallurgical uncertainty – a multi-objective approach</title>
-      <link>https://exepulveda.github.io/publication/sepulveda-2018-geomet/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/sepulveda-2018-geomet/</guid>
+      <guid>/publication/sepulveda-2018-geomet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multivariate Modelling of Geometallurgical Variables by Projection Pursuit</title>
-      <link>https://exepulveda.github.io/publication/content/publication/sepulveda-2016-ppr/</link>
+      <link>/publication/sepulveda-2016-ppr/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/sepulveda-2016-ppr/</guid>
+      <guid>/publication/sepulveda-2016-ppr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimization of planning and scheduling of ore body with open pit extraction considering homogeneity in clays as geometallurgical</title>
-      <link>https://exepulveda.github.io/publication/content/publication/garrido-2017-geometdilution/</link>
+      <link>/publication/garrido-2017-geometdilution/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/garrido-2017-geometdilution/</guid>
+      <guid>/publication/garrido-2017-geometdilution/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Multivariate Modelling of Geometallurgical Variables by Projection Pursuit</title>
-      <link>https://exepulveda.github.io/publication/sepulveda-2016-ppr/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/sepulveda-2016-ppr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimization of planning and scheduling of ore body with open pit extraction considering homogeneity in clays as geometallurgical</title>
-      <link>https://exepulveda.github.io/publication/garrido-2017-geometdilution/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/garrido-2017-geometdilution/</guid>
-      <description></description>
+      <title>Internal Project</title>
+      <link>/project/kriging_demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/kriging_demo/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>A preliminary study on the role of acoustic emission on inferring Cerchar abrasivity index of rocks using artificial neural network</title>
-      <link>https://exepulveda.github.io/publication/content/publication/perez-2015-acoustic/</link>
+      <link>/publication/perez-2015-acoustic/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/perez-2015-acoustic/</guid>
+      <guid>/publication/perez-2015-acoustic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling geometallurgical response variables using Projection Pursuit regression</title>
-      <link>https://exepulveda.github.io/publication/content/publication/sepulveda-2015-ppr/</link>
+      <link>/publication/sepulveda-2015-ppr/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/content/publication/sepulveda-2015-ppr/</guid>
+      <guid>/publication/sepulveda-2015-ppr/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A preliminary study on the role of acoustic emission on inferring Cerchar abrasivity index of rocks using artificial neural network</title>
-      <link>https://exepulveda.github.io/publication/perez-2015-acoustic/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +1030</pubDate>
-      
-      <guid>https://exepulveda.github.io/publication/perez-2015-acoustic/</guid>
+      <title>Parallelization of simulation algorithm with GPU for constructing high- resolution models of Earth Sciences variables</title>
+      <link>/publication/baeza-2012-gpu/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/baeza-2012-gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed-Multiprocess Implementation of Kriging</title>
+      <link>/publication/sepulveda-2010-kriging/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/sepulveda-2010-kriging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid KNN Algorithm using CPU and GPU applied on 3D data</title>
+      <link>/publication/sepulveda-2010-hybridknn/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/sepulveda-2010-hybridknn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovations in Software Development for Resource Evaluation</title>
+      <link>/publication/ortiz-2008-innovations/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/ortiz-2008-innovations/</guid>
       <description></description>
     </item>
     
